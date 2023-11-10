@@ -1,0 +1,131 @@
+/* Set font family, background color, and text color for the entire body */
+body {
+  font-family: 'GohuFont Nerd Font';
+  background-color: #282828;
+  color: #ebdbb2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% viewport height to center content */
+}
+
+/* Styling for the main container holding the content */
+.container {
+  text-align: center;
+  background-color: #3c3836; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 80%;
+  margin: auto;
+}
+
+/* Styling for the main heading */
+h1 {
+  color: #bdae93; 
+  margin-bottom: 20px;
+}
+
+/* Styling for labels */
+label {
+  color: #ebdbb2; 
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styling for input fields */
+input {
+  font-family: 'GohuFont Nerd Font';
+  padding: 8px;
+  font-size: 16px;
+  background-color: #32302f;
+  color: #ebdbb2; 
+  border: 1px solid #504945;
+  border-radius: 4px;
+  width: 70%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Styling for buttons */
+button {
+  font-family: 'GohuFont Nerd Font';
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #458588;
+  color: #ebdbb2; 
+  border: none;
+  border-radius: 4px;
+}
+
+/* Styling for recipe cards */
+.recipe-card {
+  margin: 10px;
+  padding: 10px;
+  background-color: #3c3836;
+  border: 1px solid #504945;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px); /* Responsive layout for cards */
+  box-sizing: border-box;
+}
+
+/* Styling for headings within recipe cards */
+.recipe-card h3 {
+  margin-bottom: 10px;
+  color: #bdae93; 
+}
+
+/* Styling for images within recipe cards */
+.recipe-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the recipe list container */
+#recipeList {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Styling for the recipe details container */
+#recipeDetails {
+  display: none;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #3c3836; 
+  box-sizing: border-box;
+}
+
+/* Styling for images within the recipe details container */
+#recipeDetails img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for the details content within the recipe details container */
+#detailsContent {
+  text-align: center;
+  color: #ebdbb2; 
+  margin-bottom: 20px;
+}
+
+/* Styling for buttons within the recipe details container */
+#recipeDetails button {
+  font-family: 'GohuFont Nerd Font';
+  background-color: #458588;
+  color: #ebdbb2; 
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+}

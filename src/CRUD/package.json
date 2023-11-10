@@ -1,0 +1,21 @@
+{
+  "name": "sample-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.7",
+    "mocha": "^5.2.0",
+    "spectron": "^5.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

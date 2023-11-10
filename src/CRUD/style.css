@@ -1,0 +1,40 @@
+/* Set background color and text color for the entire page */
+body, html {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+/* Style for h1 elements, specifying a unique text color */
+h1 {
+    color: #d3869b;
+}
+
+/* Set margin for the main wrapper to provide spacing around the content */
+.mainWrapper {
+    margin: 25px;
+}
+
+/* Style labels inside form groups with a specific text color */
+.form-group label {
+    color: #b8bb26;
+}
+
+/* Style form controls with specific background, text, and border colors */
+.form-control {
+    background-color: #282828;
+    color: #ebdbb2;
+    border: 1px solid #3c3836;
+}
+
+/* Style buttons with a background color, text color, and border color */
+.btn {
+    background-color: #d3869b !important;
+    color: #282828;
+    border: 1px solid #3c3836;
+}
+
+/* Hover effect for buttons, changing background and text color */
+.btn:hover {
+    background-color: #b8bb26 !important;
+    color: #282828;
+}
